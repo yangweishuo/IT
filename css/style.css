@@ -1,3 +1,17 @@
+@media only screen and (max-width: 479px) {
+  .form_info .country.error,
+  .form_info input.error[type="text"],
+  .form_info textarea.error {
+    border: 2px solid red;
+  }
+  .form_info #user-name-err1,
+  .form_info #user-email-err,
+  .form_info #user-country-err,
+  .form_info #user-phone-err,
+  .form_info #user-message-err {
+    display: none;
+  }
+}
 .header {
   background: url("../img/banner_index_new.jpg") no-repeat;
   background-position: center center ;
